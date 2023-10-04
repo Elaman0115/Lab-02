@@ -11,12 +11,16 @@ else:
     print("NO!")
 '''
 
-'''task2
-age=int(input("Please enter your age!:"))
-if age>=18:
-    print("Access allowed")
-else:
-    print("Access denied")
+
+'''"task2"
+try:
+    age = int(input("Please enter your age: "))
+    if age >= 18:
+        print("You are allowed to access the Internet.")
+    else:
+        print("Sorry, you are not allowed to access the Internet.")
+except ValueError:
+    print("Invalid input. Please enter a valid age.")
 '''
 
 '''"task 3"
